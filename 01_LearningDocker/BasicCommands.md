@@ -4,20 +4,23 @@
 There is a "new" way to writer docker commands. The old commands will still work for example: `$ docker ps` \
 old: `$ docker ps` \
 new: `$ docker container ls`\
+
+Here a few examples:
+-   old: `$docker ps`\
+    new: `$ docker container ls`\
+        ($docker container ls -a) ect.\
+-   old: `& docker run`\
+    new: `& docker container run` \
+-   old: `& docker start <container>`\
+    new: `& docker container run <container>` \ 
+
 In this readme i will try to stick to the new way to write docker commands but also mention the old command.
 
 ## Show infos
-old: `$docker ps`\
-new: `$ docker container ls`
-    ($docker container ls -a) ect.
 
-old: `& docker run`\
-new: `& docker container run`
 
-old: `& docker start <container>`\
-new: `& docker container run <container>`
 
-This cheatsheet will use the new commandstructure.
+
 
 
 `$ docker version`\
