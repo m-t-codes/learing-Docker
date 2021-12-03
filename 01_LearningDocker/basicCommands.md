@@ -30,7 +30,7 @@ old:
 $ docker run -p 8080:80 --name nginx -d nginx
 
 new:
-docker container run -p 8080:80 --name nginx -d nginx
+$ docker container run -p 8080:80 --name nginx -d nginx
 
 (-p = Port Exposure, --name = Naming the Container, -d = detached)
 
