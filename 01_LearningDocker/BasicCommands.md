@@ -1,7 +1,8 @@
 # Docker Commands (basics)
 
 ## Old and New Commands
-There is a "new" way to writer docker commands. The old commands will still work for example: `docker ps` /n
+There is a "new" way to writer docker commands. The old commands will still work for example: `docker ps` 
+
 asd
 
 old: $ docker ps
