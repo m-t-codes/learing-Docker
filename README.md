@@ -22,3 +22,12 @@ Text that is not a quote
 This site was built using [GitHub Pages](https://pages.github.com/).
 
 Use `git status` to list all new or modified files that haven't yet been committed.
+
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
+
+[Contribution guidelines for this project](01_LearningDocker/basicCommands.md.md)
