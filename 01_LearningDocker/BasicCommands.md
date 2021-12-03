@@ -18,14 +18,14 @@ In this readme i will try to stick to the new way to write docker commands but a
 
 ## Show infos
 
-`$ docker version`\
+`$ docker version` \
 // shows infos about installed Docker version
 
-`$ docker infos`\
+`$ docker infos` \
 // shows even more infos about the installed Docker
 
 ### Only show Docker Client version number:
-`$ docker -v`\
+`$ docker -v` 
 
 ## Running and Starting containers
 The difference between the run and start command:\
@@ -39,14 +39,14 @@ otherwise it will look for the image on DockerHub(standart if not otherwise decl
 ### A few examples to run different containers
 *-p = Port Exposure, --name = Naming the Container, -d = detached)*
 #### Ngnix
-`$ docker container run -p 80:80 --name nginx -d nginx`\
+`$ docker container run -p 80:80 --name nginx -d nginx`
 #### Apache
-`$ docker container run -p 8080:80 --name apache2 -d httpd`\
+`$ docker container run -p 8080:80 --name apache2 -d httpd`
 #### MySQL
-`$ docker container run -p 3306:3306 --name mysql -d -e MYSQL_RANDOM_ROOT_PASSWORD=true mysql`\
+`$ docker container run -p 3306:3306 --name mysql -d -e MYSQL_RANDOM_ROOT_PASSWORD=true mysql`
 
+__Old Way:__
 ```
-old:
 `$ docker run <image>`
 `$ docker start <container>`
 ```
