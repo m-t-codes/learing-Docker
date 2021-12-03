@@ -1,13 +1,8 @@
-# List of basic docker commands
+# Docker Commands (basics)
 
-
-$ docker version
-// shows infos about installed Docker version
-
-$ docker infos
-// shows even more infos about the installed Docker
-
-# Old and New Commands
+## Old and New Commands
+There is a "new" way to writer docker commands. The old commands will still work for example: `docker ps` /n
+asd
 
 old: $ docker ps
 new: $ docker container ls
@@ -21,7 +16,16 @@ new: & docker container run <container>
 
 This cheatsheet will use the new commandstructure.
 
-# Running and Starting containers
+
+$ docker version
+// shows infos about installed Docker version
+
+$ docker infos
+// shows even more infos about the installed Docker
+
+
+
+## Running and Starting containers
 $ docker container run
 
 e.g. running a nginx container old and new way:
