@@ -2,25 +2,28 @@
 
 ## Old and New Commands
 There is a "new" way to writer docker commands. The old commands will still work for example: `docker ps` \
-asd
+old: `docker ps`\
+new: `docker container ls`
+In this readme i will try to stick to the new way of writing docker commands but also mention the old command.
 
-old: $ docker ps
+## Show infos
+old: $ docker ps\
 new: $ docker container ls
     ($docker container ls -a) ect.
 
-old: & docker run
+old: & docker run\
 new: & docker container run
 
-old: & docker start <container>
+old: & docker start <container>\
 new: & docker container run <container>
 
 This cheatsheet will use the new commandstructure.
 
 
-$ docker version
+$ docker version\
 // shows infos about installed Docker version
 
-$ docker infos
+$ docker infos\
 // shows even more infos about the installed Docker
 
 
