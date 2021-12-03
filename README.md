@@ -4,3 +4,5 @@
 #### 4 Heading
 ##### 5 Heading
 ###### 6 Heading
+
+# __ Bold __ and also ** Bold **
