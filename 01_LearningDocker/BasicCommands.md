@@ -24,14 +24,29 @@ In this readme i will try to stick to the new way to write docker commands but a
 `$ docker infos`\
 // shows even more infos about the installed Docker
 
-
+### Only show Docker Client version number:
+`$ docker -v`\
 
 ## Running and Starting containers
-`$ docker container run <image>` 
+The difference between the run and start command:\
+`$ docker container run <image>` always start a new container (if possible otherwise fails)\
 
-e.g. running a nginx container old and new way:
+`$ docker container start <container>` on the other hand restarts a already build container\
 
-`$ docker container run -p 8080:80 --name nginx -d nginx`\
+`$ docker container run <image>` will always build a new container from a image, if the image already exists on the machine it will start the container right away/
+otherwise it will look for the image on DockerHub(standart if not otherwise declared)\
+
+### A few examples to run different containers
 *-p = Port Exposure, --name = Naming the Container, -d = detached)*
+#### Ngnix
+`$ docker container run -p 80:80 --name nginx -d nginx`\
+#### Apache
+`$ docker container run -p 8080:80 --name apache2 -d httpd`\
+#### MySQL
+`$ docker container run -p 3306:3306 --name mysql -d -e MYSQL_RANDOM_ROOT_PASSWORD=true mysql`\
 
-
+```
+old:
+`$ docker run <image>`
+`$ docker start <container>`
+```
