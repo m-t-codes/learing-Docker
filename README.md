@@ -30,6 +30,6 @@ git add
 git commit
 ```
 
-[Contribution guidelines for this project](/01_LearningDocker/basicCommands.md)
+**[Basic Commands]**(/01_LearningDocker/basicCommands.md)
 
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
