@@ -1,5 +1,5 @@
 # What is Docker? \
-## and why should i learn it?
+and why should i learn it?
 
 ### Lets answer the 2nd Question first, why you ask simple because the anwer to Question No. 1 will take a secound. 
 ### Question 2 is simple: Docker is just great!!!
