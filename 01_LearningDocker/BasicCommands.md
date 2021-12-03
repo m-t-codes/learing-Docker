@@ -1,7 +1,7 @@
 # Docker Commands (basics)
 
 ## Old and New Commands
-There is a "new" way to writer docker commands. The old commands will still work for example: `$ docker ps` \
+There is a new way to write docker commands. The old commands will still work for example: `$ docker ps` \
 old: `$ docker ps` \
 new: `$ docker container ls`\
 
@@ -18,11 +18,6 @@ In this readme i will try to stick to the new way to write docker commands but a
 
 ## Show infos
 
-
-
-
-
-
 `$ docker version`\
 // shows infos about installed Docker version
 
@@ -32,16 +27,11 @@ In this readme i will try to stick to the new way to write docker commands but a
 
 
 ## Running and Starting containers
-$ docker container run
+`$ docker container run <image>` 
 
 e.g. running a nginx container old and new way:
 
-old:
-$ docker run -p 8080:80 --name nginx -d nginx
-
-new:
-$ docker container run -p 8080:80 --name nginx -d nginx
-
-(-p = Port Exposure, --name = Naming the Container, -d = detached)
+`$ docker container run -p 8080:80 --name nginx -d nginx`\
+*-p = Port Exposure, --name = Naming the Container, -d = detached)*
 
 
